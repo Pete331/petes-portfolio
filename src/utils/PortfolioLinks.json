@@ -1,0 +1,65 @@
+{
+  "1": {
+    "name": "The Hackathon Finder",
+    "img": "./assets/portfolio-img/hackathon.PNG",
+    "appLink": "https://pacific-bayou-03953.herokuapp.com/",
+    "gitLink": "https://github.com/Pete331/project-2",
+    "imgAlt": "hackathon"
+  },
+  "2": {
+    "name": "Eat the Burger",
+    "img": "./assets/portfolio-img/eat-it.PNG",
+    "appLink": "https://eat-it331.herokuapp.com/",
+    "gitLink": "https://github.com/Pete331/Eat-It",
+    "imgAlt": "eat-it"
+  },
+  "3": {
+    "name": "Note Taker",
+    "img": "./assets/portfolio-img/note-taker.PNG",
+    "appLink": "https://note-taker331.herokuapp.com/",
+    "gitLink": "https://github.com/Pete331/Note-Taker",
+    "imgAlt": "note-taker"
+  },
+  "4": {
+    "name": "Stock Portfolio Generator",
+    "img": "./assets/portfolio-img/stock-generator.PNG",
+    "appLink": "https://mitchelle-b.github.io/Asset-Portfolio-Generator/",
+    "gitLink": "https://github.com/Mitchelle-B/Asset-Portfolio-Generator",
+    "imgAlt": "stock-generator"
+  },
+  "5": {
+    "name": "Weather Dashboard",
+    "img": "./assets/portfolio-img/weather.PNG",
+    "appLink": "https://pete331.github.io/Weather-Dashboard/",
+    "gitLink": "https://github.com/Pete331/Weather-Dashboard",
+    "imgAlt": "weather"
+  },
+  "6": {
+    "name": "Work Day Scheduler",
+    "img": "./assets/portfolio-img/Scheduler.PNG",
+    "appLink": "https://pete331.github.io/Day-Scheduler/",
+    "gitLink": "https://github.com/Pete331/Day-Scheduler",
+    "imgAlt": "scheduler"
+  },
+  "7": {
+    "name": "Heriseon",
+    "img": "./assets/portfolio-img/Heriseon.PNG",
+    "appLink": "https://pete331.github.io/Week-1---Heroseon/",
+    "gitLink": "https://github.com/Pete331/Week-1---Heroseon",
+    "imgAlt": "Heriseon"
+  },
+  "8": {
+    "name": "Face Detector",
+    "img": "./assets/portfolio-img/facedetector.PNG",
+    "appLink": "https://smart-brain331.herokuapp.com/",
+    "gitLink": "https://github.com/Pete331/smart-brain",
+    "imgAlt": "face-detector"
+  },
+  "9": {
+    "name": "Robofriends",
+    "img": "./assets/portfolio-img/Robofriends.PNG",
+    "appLink": "https://pete331.github.io/robofriends/",
+    "gitLink": "https://github.com/Pete331/robofriends",
+    "imgAlt": "robofriends"
+  }
+}

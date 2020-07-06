@@ -1,0 +1,92 @@
+:root {
+  --footer-height: 160px;
+}
+
+body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/crisp_paper_ruffles.png);
+  font-family: "Varela Round", sans-serif;
+  background-color: lightgray;
+  min-width: 350px;
+  width: 100% !important;
+  width: 350px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* added so that horizontal scrollbar dissappeared */
+.row {
+  margin: 0px;
+}
+
+#name {
+  font-size: 20px;
+}
+
+/* 98.4% instead of 100% so that no scroll is required when page not full */
+#container {
+  min-height: 98.4%;
+  margin-bottom: calc(var(--footer-height) * -1);
+  position: relative;
+}
+
+.footer {
+  height: var(--footer-height);
+  position: relative;
+}
+
+.socials {
+  height: 100px;
+}
+
+.clearfooter {
+  height: var(--footer-height);
+  clear: both;
+}
+
+.border-3 {
+  border-bottom-width: 10px !important;
+  border-bottom-style: solid;
+  border-color: #5bc0de;
+}
+
+#bio-image {
+  float: left;
+  /* width: 200px; */
+  max-width: 300px;
+  width: 40% !important;
+  height: auto;
+  margin: 20px;
+  -webkit-box-shadow: 5px 6px 9px 6px rgba(0, 0, 0, 0.87);
+  box-shadow: 5px 6px 9px 6px rgba(0, 0, 0, 0.87);
+}
+
+.card {
+  max-width: 400px;
+  width: auto !important;
+  height: auto;
+}
+
+.fa-chevron-circle-right {
+  float: right;
+}
+
+.portfolio-div {
+  min-height: 225px;
+}
+
+.img-caption {
+  height: 100%;
+    background-color: lightgrey;
+}
+
+img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
