@@ -1,0 +1,17 @@
+{
+  "1": { "name": "HTML5", "img": "./assets/img/html5.png" },
+  "2": { "name": "CSS3", "img": "./assets/img/css3.png" },
+  "3": { "name": "Bootstrap", "img": "./assets/img/bootstrap.png" },
+  "4": { "name": "Materialize", "img": "./assets/img/materialize.png" },
+  "5": { "name": "React", "img": "./assets/img/react.png" },
+  "6": { "name": "Javascript", "img": "./assets/img/javascript.png" },
+  "7": { "name": "jQuery", "img": "./assets/img/jquery.png" },
+  "8": { "name": "Node", "img": "./assets/img/nodejs.png" },
+  "9": { "name": "Express", "img": "./assets/img/express.png" },
+  "10": { "name": "MongoDB", "img": "./assets/img/Mongodb.png" },
+  "11": { "name": "MySQL", "img": "./assets/img/mysql.png" },
+  "12": { "name": "PostgreSQL", "img": "./assets/img/postgresql.png" },
+  "13": { "name": "Github", "img": "./assets/img/github.png" },
+  "14": { "name": "Gitkraken", "img": "./assets/img/gitkraken.png" },
+  "15": { "name": "Heroku", "img": "./assets/img/heroku.png" }
+}

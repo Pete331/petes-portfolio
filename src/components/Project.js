@@ -5,17 +5,17 @@ function Project(props) {
   const [hoverRef, isHovered] = useHover();
 
   return (
-    <div className="portfolio-div col-lg-4 col-md-6 mb-3" ref={hoverRef}>
+    <div className="col-lg-4 col-md-6 mb-3" ref={hoverRef}>
       {isHovered ? (
         <div className="img-caption p-3">
           <h3 className="text-center text-info">{props.data.name}</h3>
-          <a
+          <button
             className="btn btn-info btn-block"
             href={props.data.appLink}
             target="”_blank”"
           >
             View Project <i className="fa fa-chevron-circle-right"></i>
-          </a>
+          </button>
           <a
             href={props.data.gitLink}
             target="”_blank”"
