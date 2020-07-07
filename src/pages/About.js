@@ -53,13 +53,14 @@ function About() {
               <SkillIcon skills={Skills[2]} />
               <SkillIcon skills={Skills[3]} />
               <SkillIcon skills={Skills[4]} />
+              <SkillIcon skills={Skills[5]} />
             </div>
           </div>
 
           <div className="card-content mb-5 border">
             <h3 className="text-info text-center">Back-End</h3>
             <div className="row text-center">
-              <SkillIcon skills={Skills[5]} />
+              
               <SkillIcon skills={Skills[6]} />
               <SkillIcon skills={Skills[7]} />
               <SkillIcon skills={Skills[8]} />
