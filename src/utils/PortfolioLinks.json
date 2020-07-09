@@ -1,84 +1,84 @@
 {
   "12": {
     "name": "Employee Directory (React)",
-    "img": "./assets/portfolio-img/employee-directory.PNG",
+    "img": "./assets/img/portfolio/employee-directory.PNG",
     "appLink": "https://employee-directory331.herokuapp.com/",
     "gitLink": "https://github.com/Pete331/Employee-Directory---React",
     "imgAlt": "employee-dir"
   },
   "11": {
     "name": "Workout Tracker",
-    "img": "./assets/portfolio-img/workout-dashboard.PNG",
+    "img": "./assets/img/portfolio/workout-dashboard.PNG",
     "appLink": "https://workout-tracker331.herokuapp.com/",
     "gitLink": "https://github.com/Pete331/Workout-Tracker",
     "imgAlt": "workout"
   },
   "10": {
     "name": "Online/Offline Budget Tracker",
-    "img": "./assets/portfolio-img/budget-tracker.PNG",
+    "img": "./assets/img/portfolio/budget-tracker.PNG",
     "appLink": "https://budget-tracker331.herokuapp.com/",
     "gitLink": "https://github.com/Pete331/Online-Offline-Budget-Trackers",
     "imgAlt": "budget"
   },
   "9": {
     "name": "The Hackathon Finder",
-    "img": "./assets/portfolio-img/hackathon.PNG",
+    "img": "./assets/img/portfolio/hackathon.PNG",
     "appLink": "https://pacific-bayou-03953.herokuapp.com/",
     "gitLink": "https://github.com/Pete331/project-2",
     "imgAlt": "hackathon"
   },
   "8": {
     "name": "Eat the Burger",
-    "img": "./assets/portfolio-img/eat-it.PNG",
+    "img": "./assets/img/portfolio/eat-it.PNG",
     "appLink": "https://eat-it331.herokuapp.com/",
     "gitLink": "https://github.com/Pete331/Eat-It",
     "imgAlt": "eat-it"
   },
   "7": {
     "name": "Note Taker",
-    "img": "./assets/portfolio-img/note-taker.PNG",
+    "img": "./assets/img/portfolio/note-taker.PNG",
     "appLink": "https://note-taker331.herokuapp.com/",
     "gitLink": "https://github.com/Pete331/Note-Taker",
     "imgAlt": "note-taker"
   },
   "6": {
     "name": "Stock Portfolio Generator",
-    "img": "./assets/portfolio-img/stock-generator.PNG",
+    "img": "./assets/img/portfolio/stock-generator.PNG",
     "appLink": "https://mitchelle-b.github.io/Asset-Portfolio-Generator/",
     "gitLink": "https://github.com/Mitchelle-B/Asset-Portfolio-Generator",
     "imgAlt": "stock-generator"
   },
   "5": {
     "name": "Weather Dashboard",
-    "img": "./assets/portfolio-img/weather.PNG",
+    "img": "./assets/img/portfolio/weather.PNG",
     "appLink": "https://pete331.github.io/Weather-Dashboard/",
     "gitLink": "https://github.com/Pete331/Weather-Dashboard",
     "imgAlt": "weather"
   },
   "4": {
     "name": "Work Day Scheduler",
-    "img": "./assets/portfolio-img/Scheduler.PNG",
+    "img": "./assets/img/portfolio/Scheduler.PNG",
     "appLink": "https://pete331.github.io/Day-Scheduler/",
     "gitLink": "https://github.com/Pete331/Day-Scheduler",
     "imgAlt": "scheduler"
   },
   "3": {
     "name": "Heriseon",
-    "img": "./assets/portfolio-img/Heriseon.PNG",
+    "img": "./assets/img/portfolio/Heriseon.PNG",
     "appLink": "https://pete331.github.io/Week-1---Heroseon/",
     "gitLink": "https://github.com/Pete331/Week-1---Heroseon",
     "imgAlt": "Heriseon"
   },
   "2": {
     "name": "Face Detector",
-    "img": "./assets/portfolio-img/facedetector.PNG",
+    "img": "./assets/img/portfolio/facedetector.PNG",
     "appLink": "https://smart-brain331.herokuapp.com/",
     "gitLink": "https://github.com/Pete331/smart-brain",
     "imgAlt": "face-detector"
   },
   "1": {
     "name": "Robofriends",
-    "img": "./assets/portfolio-img/Robofriends.PNG",
+    "img": "./assets/img/portfolio/Robofriends.PNG",
     "appLink": "https://pete331.github.io/robofriends/",
     "gitLink": "https://github.com/Pete331/robofriends",
     "imgAlt": "robofriends"

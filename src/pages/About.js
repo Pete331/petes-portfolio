@@ -14,7 +14,7 @@ function About() {
             <img
               className="rounded w-20"
               id="bio-image"
-              src="./assets/portfolio-img/profile.png"
+              src="./assets/img/profile.png"
               alt="profile-pic"
             />
             <div className="p-3">
