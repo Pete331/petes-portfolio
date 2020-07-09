@@ -11,6 +11,7 @@ function Contact() {
   // }
 
   return (
+    
     <div className="container">
       <div className="row bg-white border border-secondary">
         <div className="col-sm-12 p-4">

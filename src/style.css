@@ -37,14 +37,6 @@ body {
   position: relative;
 }
 
-.socials {
-  height: 100px;
-}
-
-.clearfooter {
-  height: var(--footer-height);
-  clear: both;
-}
 
 .border-3 {
   border-bottom-width: 10px !important;

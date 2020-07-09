@@ -9,13 +9,13 @@ function Project(props) {
       {isHovered ? (
         <div className="img-caption p-3">
           <h3 className="text-center text-info">{props.data.name}</h3>
-          <button
+          <a
             className="btn btn-info btn-block"
             href={props.data.appLink}
             target="”_blank”"
           >
             View Project <i className="fa fa-chevron-circle-right"></i>
-          </button>
+          </a>
           <a
             href={props.data.gitLink}
             target="”_blank”"
