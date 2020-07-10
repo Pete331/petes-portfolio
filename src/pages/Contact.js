@@ -1,7 +1,7 @@
 import React from 'react'
 // import { navigate } from 'gatsby-link'
 // import Layout from '../layout'
-import { Route } from "react-router-dom";
+// import { Route } from "react-router-dom";
 
 function encode(data) {
   return Object.keys(data)
