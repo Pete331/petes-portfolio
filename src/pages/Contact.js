@@ -11,7 +11,6 @@ function Contact() {
   // }
 
   return (
-    
     <div className="container">
       <div className="row bg-white border border-secondary">
         <div className="col-sm-12 p-4">
@@ -23,12 +22,13 @@ function Contact() {
           {/* <!-- Begin Mailchimp Signup Form --> */}
           <div id="mc_embed_signup">
             <form
-              action="https://github.us3.list-manage.com/subscribe/post?u=64a019defcb78cebd2fa23e6a&amp;id=e5f8fe46ea"
+              // action="https://github.us3.list-manage.com/subscribe/post?u=64a019defcb78cebd2fa23e6a&amp;id=e5f8fe46ea"
               method="post"
-              id="mc-embedded-subscribe-form"
-              name="mc-embedded-subscribe-form"
-              className="validate"
-              target="_blank"
+              // id="mc-embedded-subscribe-form"
+              name="contact"
+              // className="validate"
+              // target="_blank"
+              data-netlify="true"
               // novalidate
             >
               <div id="mc_embed_signup_scroll">
@@ -42,7 +42,7 @@ function Contact() {
                     }}
                     name="NAME"
                     className="form-control"
-                    id="mce-NAME"
+                    // id="mce-NAME"
                   />
                 </div>
                 <div className="mc-field-group mt-3">
@@ -86,7 +86,7 @@ function Contact() {
                     id="mce-MESSAGE"
                   />
                 </div>
-                <div id="mce-responses" className="clear">
+                {/* <div id="mce-responses" className="clear">
                   <div
                     className="response"
                     id="mce-error-response"
@@ -97,9 +97,9 @@ function Contact() {
                     id="mce-success-response"
                     style={{ display: "none" }}
                   ></div>
-                </div>
+                </div> */}
                 {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
-                <div
+                {/* <div
                   style={{ position: "absolute", left: "-5000px" }}
                   aria-hidden="true"
                 >
@@ -109,7 +109,7 @@ function Contact() {
                     tabIndex="-1"
                     defaultValue=""
                   />
-                </div>
+                </div> */}
                 <div className="clear">
                   <input
                     type="submit"
