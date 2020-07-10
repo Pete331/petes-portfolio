@@ -1,5 +1,12 @@
 import React, { useState } from "react";
 
+const encode = (data) => {
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
+
+
 function Contact() {
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
@@ -9,6 +16,18 @@ function Contact() {
   // function HandleSubmit(event) {
   //   console.log(event);
   // }
+
+  function handleSubmit(e) {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", "name": nameValue, "email": emailValue })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
 
   return (
     <div className="container">
@@ -30,6 +49,7 @@ function Contact() {
               // target="_blank"
               data-netlify="true"
               // novalidate
+              onSubmit={handleSubmit}
             >
               <div id="mc_embed_signup_scroll">
                 <div className="mc-field-group mt-3">
