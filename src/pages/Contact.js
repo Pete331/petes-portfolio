@@ -57,7 +57,7 @@ function Contact() {
                     }}
                     name="EMAIL"
                     className="form-control required email"
-                    id="mce-EMAIL"
+                    // id="mce-EMAIL"
                   />
                 </div>
                 <div className="mc-field-group size1of2 mt-3">
@@ -70,7 +70,7 @@ function Contact() {
                     onChange={(e) => {
                       setPhoneValue(e.target.value);
                     }}
-                    id="mce-PHONE"
+                    // id="mce-PHONE"
                   />
                 </div>
                 <div className="mc-field-group mt-3">
@@ -83,7 +83,7 @@ function Contact() {
                     }}
                     name="MESSAGE"
                     className="form-control"
-                    id="mce-MESSAGE"
+                    // id="mce-MESSAGE"
                   />
                 </div>
                 {/* <div id="mce-responses" className="clear">
@@ -110,17 +110,17 @@ function Contact() {
                     defaultValue=""
                   />
                 </div> */}
-                <div className="clear">
-                  <input
+                {/* <div className="clear"> */}
+                  <button
                     type="submit"
-                    value="Submit"
-                    name="subscribe"
-                    id="mc-embedded-subscribe"
+                    // value="Submit"
+                    // name="subscribe"
+                    // id="mc-embedded-subscribe"
                     className="button btn btn-info mt-3"
                     // onClick={(e) => {
                     //   HandleSubmit(e.target)}}
-                  />
-                </div>
+                  >Submit</button>
+                {/* </div> */}
               </div>
             </form>
           </div>
