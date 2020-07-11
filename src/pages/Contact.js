@@ -40,7 +40,7 @@ export default function Contact() {
           <h5>Submit the below form to recieve a copy of my résumé</h5>
 
           <form
-            name="contact"
+            name="contacts"
             method="post"
             action="/thanks/"
             data-netlify="true"
@@ -48,7 +48,7 @@ export default function Contact() {
             onSubmit={handleSubmit}
           >
             {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contacts" />
             <p hidden>
               <label>
                 Don’t fill this out:{" "}
@@ -87,7 +87,7 @@ export default function Contact() {
                 <br />
                 <input
                   className="form-control"
-                  type="text"
+                  type="number"
                   name="phone"
                   onChange={handleChange}
                 />
