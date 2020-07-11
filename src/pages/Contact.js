@@ -1,5 +1,5 @@
 import React from "react";
-// import { navigateTo } from "gatsby-link";
+import { useHistory } from "react-router-dom";
 
 function encode(data) {
   return Object.keys(data)
@@ -12,8 +12,10 @@ export default function Contact() {
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value });
-    console.log(state);
+    // console.log(state);
   };
+
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,7 +28,7 @@ export default function Contact() {
         ...state,
       }),
     })
-      .then(alert("Your information has been sent, I will get in contact with you shortly"))
+      .then(history.push("/Thanks"))
       .catch((error) => alert(error));
   };
 
@@ -42,7 +44,7 @@ export default function Contact() {
           <form
             name="contact"
             method="post"
-            action="/thanks/"
+            action="/Portfolio"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             onSubmit={handleSubmit}
