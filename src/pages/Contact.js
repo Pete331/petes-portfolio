@@ -12,7 +12,7 @@ export default function Contact() {
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value });
-    // console.log(state);
+    console.log(state);
   };
 
   const history = useHistory();
@@ -42,7 +42,7 @@ export default function Contact() {
           <h5>Submit the below form to recieve a copy of my résumé</h5>
 
           <form
-            name="contact"
+            name="contact-v2"
             method="post"
             action="/Portfolio"
             data-netlify="true"
