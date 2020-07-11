@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 function encode(data) {
@@ -8,7 +8,7 @@ function encode(data) {
 }
 
 export default function Contact() {
-  const [state, setState] = React.useState({});
+  const [state, setState] = useState({});
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value });
@@ -42,7 +42,7 @@ export default function Contact() {
           <h5>Submit the below form to recieve a copy of my résumé</h5>
 
           <form
-            name="contact-v2"
+            name="contact"
             method="post"
             action="/Thanks"
             data-netlify="true"
@@ -50,7 +50,7 @@ export default function Contact() {
             onSubmit={handleSubmit}
           >
             {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-            <input type="hidden" name="form-name" value="contact-v2" />
+            <input type="hidden" name="form-name" value="contact" />
             <p hidden>
               <label>
                 Don’t fill this out:{" "}
