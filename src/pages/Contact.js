@@ -55,32 +55,46 @@ export default function Contact() {
               </label>
             </p>
             <p>
-              <label>
-                Your name:
+              <label className="w-100">
+                Name *
                 <br />
                 <input
                   className="form-control"
                   type="text"
                   name="name"
                   onChange={handleChange}
+                  required
                 />
               </label>
             </p>
             <p>
-              <label>
-                Your email:
+              <label className="w-100">
+                Email *
                 <br />
                 <input
                   className="form-control"
                   type="email"
                   name="email"
                   onChange={handleChange}
+                  required
                 />
               </label>
             </p>
             <p>
-              <label>
-                Message:
+              <label className="w-100">
+                Phone
+                <br />
+                <input
+                  className="form-control"
+                  type="text"
+                  name="phone"
+                  onChange={handleChange}
+                />
+              </label>
+            </p>
+            <p>
+              <label className="w-100">
+                Message
                 <br />
                 <textarea
                   className="form-control"
