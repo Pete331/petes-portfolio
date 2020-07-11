@@ -9,7 +9,7 @@ function Thanks() {
             <h2 className="text-info">Thankyou</h2>
           </div>
           <p>Thanks for requesting more information, I will be in touch shortly with my résumé.</p>
-          <p>In the Meantime, follow me on my socials.</p>
+          <p>In the Meantime, check out some of my projects and follow me on my socials.</p>
         </div>
       </div>
     </div>

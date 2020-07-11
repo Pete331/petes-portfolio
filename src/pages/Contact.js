@@ -44,13 +44,13 @@ export default function Contact() {
           <form
             name="contact-v2"
             method="post"
-            action="/Portfolio"
+            action="/Thanks"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             onSubmit={handleSubmit}
           >
             {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact-v2" />
             <p hidden>
               <label>
                 Don’t fill this out:{" "}
