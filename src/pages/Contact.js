@@ -12,7 +12,7 @@ export default function Contact() {
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value });
-    console.log(state);
+    // console.log(state);
   };
 
   const history = useHistory();
