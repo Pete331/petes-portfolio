@@ -1,6 +1,20 @@
 {
+  "14": {
+    "name": "Twin Tips",
+    "img": "./assets/img/portfolio/twin-tips.PNG",
+    "appLink": "https://twin-tips.herokuapp.com/",
+    "gitLink": "https://github.com/Pete331/Twin-Tips",
+    "imgAlt": "twin-tips"
+  },
+  "13": {
+    "name": "Book Search",
+    "img": "./assets/img/portfolio/book-search.PNG",
+    "appLink": "https://book-search331.herokuapp.com/",
+    "gitLink": "https://github.com/Pete331/Book-Search",
+    "imgAlt": "book-search"
+  },
   "12": {
-    "name": "Employee Directory (React)",
+    "name": "Employee Directory",
     "img": "./assets/img/portfolio/employee-directory.PNG",
     "appLink": "https://employee-directory331.herokuapp.com/",
     "gitLink": "https://github.com/Pete331/Employee-Directory---React",

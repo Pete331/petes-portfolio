@@ -39,8 +39,14 @@ export default function Contact() {
           <div className="border-bottom border-secondary mb-3">
             <h2 className="text-info">Contact</h2>
           </div>
-          <h5>Submit the below form to recieve a copy of my résumé</h5>
-
+          <h5>
+            Feel free to contact me via email/phone or fill out the below form
+            to recieve a copy of my résumé
+          </h5>
+          <ul>
+            <li>Email: peter@agcorp.com.au</li>
+            <li>Phone: 0429 996 730</li>
+          </ul>
           <form
             name="contact"
             method="post"

@@ -10,8 +10,16 @@ function Portfolio() {
           <div className="border-bottom border-secondary mb-3">
             <h2 className="text-info">Portfolio</h2>
           </div>
+          <h5>
+           Browse through some of the projects I have created, you will find information about each project in the github links.
+          </h5>
+          <h6>
+           My personal favorite is Twin Tips - Signup to join in the most strategic way to footy tip yet.
+          </h6>
           <div className="container-fluid mt-4">
             <div className="row">
+              <Project data={Data[14]} />
+              <Project data={Data[13]} />
               <Project data={Data[12]} />
               <Project data={Data[11]} />
               <Project data={Data[10]} />
